@@ -1,6 +1,6 @@
 # chatbot-app
 ## Task for AI Chatbot for the ifood data customers dataset
-### The application utilises langchain's pandas dataframe agents and the Open AI gpt-3.5 and gpt-4 to enable users to query the chatbot with questions about the given customers dataset. It provides a simple streamlit browser based UI.
+### The application utilises langchain's pandas dataframe agents and the Open AI gpt-3.5 and gpt-4 models to enable users to query the chatbot with questions about the given customers dataset. It provides a simple streamlit browser based UI.
 
 #### Instructions to run:
 1. Ensure that you are have python version 3.9 or 3.10 installed (python 3.11+ may produce some library incompatibilities when installing the required libraries) as well as pip.
