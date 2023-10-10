@@ -4,12 +4,13 @@
 
 #### Instructions to run:
 1. Clone the repository and navigate to the app's directory.
-2. Ensure that you are have python version 3.9 or 3.10 as well as pip installed (NOTICE: python 3.11+ may produce some library incompatibilities when installing the required libraries).
-3. Install the necessary python packages by running `pip install -r ./requirements.txt` or `pip install langchain streamlit openai tabulate python-dotenv pandas`.
-4. Run the application by running `streamlit run main.py` in the console.
-5. After runninng the command a new browser tab will open with the chatbot. If it does not automatically open, you can access it at [http://172.20.10.6:8501]
-6. Choose your preferred GPT model using the radio buttons (you can change whenever you like).
-7. Ask your questions! NB! For more complex questions consider selecting the GPT-4 model, since it is more accurate (however slightly slower and more expensive).
+2. Go ot the `.env` file and add your Open AI Api Key against the `OPENAI_API_KEY` variable (an example of that can be seen in the `example-env.txt` file).
+3. Ensure that you are have python version 3.9 or 3.10 as well as pip installed (NOTICE: python 3.11+ may produce some library incompatibilities when installing the required libraries).
+4. Install the necessary python packages by running `pip install -r ./requirements.txt` or `pip install langchain streamlit openai tabulate python-dotenv pandas`.
+5. Run the application by running `streamlit run main.py` in the console.
+6. After runninng the command a new browser tab will open with the chatbot. If it does not automatically open, you can access it at [http://172.20.10.6:8501]
+7. Choose your preferred GPT model using the radio buttons (you can change whenever you like). NB! Use the GPT-4 model only if you Open AI API key allows it!
+8. Ask your questions! NB! For more complex questions consider selecting the GPT-4 model, since it is more accurate (however slightly slower and more expensive).
 
 #### Images:
 App's UI: 
