@@ -4,7 +4,7 @@
 
 #### Instructions to run:
 1. Clone the repository and navigate to the app's directory.
-2. Go ot the `.env` file and add your Open AI Api Key against the `OPENAI_API_KEY` variable (an example of that can be seen in the `example-env.txt` file).
+2. Open the `.env` file and add your Open AI Api Key against the `OPENAI_API_KEY` variable (an example of that can be seen in the `example-env.txt` file).
 3. Ensure that you are have python version 3.9 or 3.10 as well as pip installed (NOTICE: python 3.11+ may produce some library incompatibilities when installing the required libraries).
 4. Install the necessary python packages by running `pip install -r ./requirements.txt` or `pip install langchain streamlit openai tabulate python-dotenv pandas`.
 5. Run the application by running `streamlit run main.py` in the console.
