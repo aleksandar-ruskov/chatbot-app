@@ -3,7 +3,7 @@
 ### The application utilises langchain's pandas dataframe agents and the Open AI gpt-3.5 and gpt-4 models to enable users to query the chatbot with questions about the given customers dataset. It provides a simple streamlit browser based UI.
 
 #### Instructions to run:
-1. Clone the repository and naviage to the app's directory.
+1. Clone the repository and navigate to the app's directory.
 2. Ensure that you are have python version 3.9 or 3.10 as well as pip installed (NOTICE: python 3.11+ may produce some library incompatibilities when installing the required libraries).
 3. Install the necessary python packages by running `pip install -r ./requirements.txt` or `pip install langchain streamlit openai tabulate python-dotenv pandas`.
 4. Run the application by running `streamlit run main.py` in the console.
